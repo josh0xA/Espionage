@@ -51,6 +51,7 @@ entry_phrases = [
     'Wiretap The World.',
     'She Loves Espionage.',
     'Be The Man-in-the-middle.',
+    '<3 Sniff Responsibly.',
 ]
 
 

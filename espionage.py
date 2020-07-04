@@ -125,7 +125,6 @@ def espionage_main():
     args = parser.parse_args()
 
     pcap_file_name = str(args.filename)
-
     try:
         __socket__ = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(0x0003))
         if Interface(args.iface).is_interface_up():
