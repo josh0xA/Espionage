@@ -150,8 +150,6 @@ def espionage_main():
                 esp.print_espionage_notab('Destination: {}, Source: {}, Protocol: {}\n'.format(dest_mac, src_mac, eth_proto))
 
                 (packet_version, packet_header_length, packet_ttl, packet_protocol, packet_source, packet_destination, pkdata) = pk.handle_ipv4_packet(data)
-                print(pkdata)
-
                 if eth_proto == 8:
                     opt.__write_ipv4_normal_output__(data)
 
