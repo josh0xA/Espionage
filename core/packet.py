@@ -34,9 +34,11 @@ class Packet(object):
 
     def unpack_packet(self, bytes_string, packet_data, array_value):
         cfg = Config()
-        return struct.unpack(
-            str(bytes_string), packet_data[:int(array_value)]
-        )
+        try:
+            return struct.unpack(
+                str(bytes_string), packet_data[:int(array_value)]
+            )
+        except: pass
 
     def handle_ipv4_packet(self, packet_data):
         pk = Packet()
@@ -46,9 +48,14 @@ class Packet(object):
         __v_version__ = __v_header_length__ >> cfg.__version_header_shifter_length__
         __header_len__ = (__v_header_length__ & 15) * cfg.__version_header_shifter_length__
 
-        ttl, proto, src, target = pk.unpack_packet(cfg.ESPI_IPV4_BYTES_STR, packet_data, 20)
+        try:
+            ttl, proto, src, target = pk.unpack_packet(cfg.ESPI_IPV4_BYTES_STR, packet_data, 20)
+            return __v_version__, __header_len__, ttl, proto, pk.transform_ip_4_address(src), pk.transform_ip_4_address(target), packet_data[__header_len__:]
+        except:
+            esp = Espionage()
+            esp.print_espionage_malformed_packet("\t {} MALFORMED PACKET >> Passing...\n".format(cfg.ESPI_ASCII_DOWN_RIGHT_ARROW))
+            pass
 
-        return __v_version__, __header_len__, ttl, proto, pk.transform_ip_4_address(src), pk.transform_ip_4_address(target), packet_data[__header_len__:]
 
     def handle_icmp_packet(self, packet_data):
         cfg = Config()
