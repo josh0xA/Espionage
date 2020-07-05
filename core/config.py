@@ -19,6 +19,8 @@ from termcolor import cprint, colored
 
 import textwrap
 
+import struct
+
 # Console colors
 W = '\033[0m'  # white (normal)
 R = '\033[31m'  # red
@@ -38,6 +40,10 @@ class Config:
     ESPI_ERROR_CODE_STANDARD = -1
     ESPI_SUCCESS_CODE_STANDARD = 0
     ESPIONAGE_PROCESS_ACTIVE = False
+
+    # Error Typedefs
+    ESPI_PACKET_INJECTION_DETECT = struct.error
+    ESPI_PACKET_INJECTION_DETECT_TYPE = TypeError
 
     # Interface Handlers
     ESPI_NET_INTERFACE_ACTIVE = False
@@ -83,7 +89,7 @@ class Config:
 
     # ASCII Handlers
     ESPI_ASCII_DOWN_ARROW = u"\u2193"
-
+    ESPI_ASCII_DOWN_RIGHT_ARROW = u"\u21B3"
     # Shifters
     __version_header_shifter_length__ = 4
     __flag_urg_shift_value__ = 5
@@ -113,6 +119,11 @@ class Espionage(object):
         espionage = '[espionage]>'
         if color:
             cprint(msg, 'green', attrs=['bold'])
+        else: print('\t' + msg)
+
+    def print_espionage_malformed_packet(self, msg, color=True):
+        if color:
+            cprint(msg, 'red', attrs=['bold'])
         else: print('\t' + msg)
 
     '''
