@@ -8,6 +8,7 @@
   <b>Featured In</b>
   <br>
   <a href="https://blackarch.org/sniffer.html"><img src="https://i.imgur.com/IPiAUZi.png"></a>
+  <a href="https://kitploit.com/"><img src="https://2.bp.blogspot.com/-IQKG1FPPWQo/VT7jrl3D6KI/AAAAAAAAD70/IV92DTUDwAk/s1600/kitploit-Logo-2015-04-27%2B-%2B%25283%2529.png"></a>
 </p>
 
 ## About Espionage
