@@ -8,7 +8,7 @@
   <b>Featured In</b>
   <br>
   <a href="https://blackarch.org/sniffer.html"><img src="https://i.imgur.com/IPiAUZi.png">
-  <a href="https://www.kitploit.com/2020/06/espionage-network-packet-and-traffic.html"><img src="imgs/kitploit-Logo-2015-04-27%2B-%2B%25283%2529.png"></a>
+  <a href="https://www.kitploit.com/2020/06/espionage-network-packet-and-traffic.html"><img src="imgs\kitploit-Logo-2015-04-27%2B-%2B%25283%2529.png"></a>
 </p>
 
 ## About Espionage
