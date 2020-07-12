@@ -10,6 +10,10 @@
   <a href="https://blackarch.org/sniffer.html"><img src="https://i.imgur.com/IPiAUZi.png">
   <a href="https://www.kitploit.com/2020/06/espionage-network-packet-and-traffic.html"><img src="https://raw.githubusercontent.com/josh0xA/Espionage/master/imgs/kitploit-Logo-2015-04-27%252B-%252B%2525283%252529.png"></a>
 </p>
+  
+<p align="center">
+    <a href="https://lbesson.mit-license.org/" target="_blank"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="lisence" /></a>
+</p>
 
 ## About Espionage
 Espionage is a network packet sniffer that intercepts large amounts of data being passed through an interface. The tool allows users to to run normal and verbose traffic analysis that shows a live feed of traffic, revealing packet direction, protocols, flags, etc. Espionage can also spoof ARP so, all data sent by the target gets redirected through the attacker (MiTM). Espionage supports IPv4, TCP/UDP, ICMP, and HTTP. Espionage was written in Python 3.8 but it also supports version 3.6. This is the first version of the tool so please contact the developer if you want to help contribute and add more to Espionage. Note: This is not a Scapy wrapper, scapylib only assists with HTTP requests and ARP. 
@@ -77,7 +81,7 @@ The developer of this program, Josh Schiavone, written the following code for ed
 MIT License<br/>
 Copyright (c) 2020 Josh Schiavone
 
-<br/>[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+<br/>
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/josh0xA/Espionage/graphs/commit-activity)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/josh0xA/Espionage)](https://GitHub.com/josh0xA/Espionage/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/josh0xA/Espionage)](https://GitHub.com/josh0xA/Espionage/issues/)
