@@ -13,12 +13,7 @@
   
 <p align="center">
     <a href="https://lbesson.mit-license.org/" target="_blank"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="lisence" /></a>
-    <a href="https://GitHub.com/josh0xA/Espionage/graphs/commit-activity" target="_blank"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="lisence" /></a>
-  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/josh0xA/Espionage/graphs/commit-activity)
-  [![GitHub pull-requests](https://img.shields.io/github/issues-pr/josh0xA/Espionage)](https://GitHub.com/josh0xA/Espionage/pull/)
-  [![GitHub issues](https://img.shields.io/github/issues/josh0xA/Espionage)](https://GitHub.com/josh0xA/Espionage/issues/)
-  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-
+    <a href="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" target="_blank"><img src="https://www.python.org/" alt="python" /></a>
 </p>
 
 ## About Espionage
