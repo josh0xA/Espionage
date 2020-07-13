@@ -72,6 +72,11 @@ optional arguments:
   -t TARGET, --target TARGET
 ```
 [![asciicast](https://asciinema.org/a/343152.svg)](https://asciinema.org/a/343152)
+
+## Writeup
+A simple medium writeup can be found here: <br/>
+https://medium.com/@jshschiavone/intercepting-network-traffic-with-the-espionage-packet-sniffer-9af8aa86e45e?sk=deb56435cfc403131c426ac7ed7d9ff2
+
 ## Discord Server
 https://discord.gg/jtZeWek
 
