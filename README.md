@@ -75,7 +75,7 @@ optional arguments:
 
 ## Writeup
 A simple medium writeup can be found here: <br/>
-[Click Here For The Official Medium Article link](https://medium.com/@jshschiavone/intercepting-network-traffic-with-the-espionage-packet-sniffer-9af8aa86e45e?sk=deb56435cfc403131c426ac7ed7d9ff2)
+[Click Here For The Official Medium Article](https://medium.com/@jshschiavone/intercepting-network-traffic-with-the-espionage-packet-sniffer-9af8aa86e45e?sk=deb56435cfc403131c426ac7ed7d9ff2)
 
 
 
