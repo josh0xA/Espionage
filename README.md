@@ -87,7 +87,7 @@ The developer of this program, Josh Schiavone, written the following code for ed
 
 ### License
 MIT License<br/>
-Copyright (c) 2020 Josh Schiavone
+Copyright (c) 2022 Josh Schiavone
 
 <br/>
 
