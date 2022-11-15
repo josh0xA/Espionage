@@ -1,4 +1,4 @@
-# Espionage - A Network Traffic Interceptor For Linuxx
+# Espionage - A Network Traffic Interceptor For Linux
 <p align="center">
   <img src="https://github.com/DoubleThreatSecurity/Espionage/blob/master/imgs/espionagelogo.png?raw=true">
 </p>
