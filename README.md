@@ -20,7 +20,7 @@
 Espionage is a network packet sniffer that intercepts large amounts of data being passed through an interface. The tool allows users to to run normal and verbose traffic analysis that shows a live feed of traffic, revealing packet direction, protocols, flags, etc. Espionage can also spoof ARP so, all data sent by the target gets redirected through the attacker (MiTM). Espionage supports IPv4, TCP/UDP, ICMP, and HTTP. Espionage was written in Python 3.8 but it also supports version 3.6. This is the first version of the tool so please contact the developer if you want to help contribute and add more to Espionage. Note: This is not a Scapy wrapper, scapylib only assists with HTTP requests and ARP. 
 
 ## Installation
-1: ```git clone https://www.github.com/MandConsultingGroup/Espionage.git```<br/>
+1: ```git clone https://www.github.com/josh0xA/Espionage.git```<br/>
 2: ```cd Espionage```<br/>
 3: ```sudo python3 -m pip install -r requirments.txt```<br/>
 4: ```sudo python3 espionage.py --help```<br/>
