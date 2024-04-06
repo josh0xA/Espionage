@@ -78,16 +78,12 @@ A simple medium writeup can be found here: <br/>
 [Click Here For The Official Medium Article](https://medium.com/@jshschiavone/intercepting-network-traffic-with-the-espionage-packet-sniffer-9af8aa86e45e?sk=deb56435cfc403131c426ac7ed7d9ff2)
 
 
-
-## Discord Server
-https://discord.gg/jtZeWek
-
 ## Ethical Notice
 The developer of this program, Josh Schiavone, written the following code for educational and ethical purposes only. The data sniffed/intercepted is not to be used for malicous intent. Josh Schiavone is not responsible or liable for misuse of this penetration testing tool. May God bless you all.
 
 ### License
 MIT License<br/>
-Copyright (c) 2022 Josh Schiavone
+Copyright (c) 2024 Josh Schiavone
 
 <br/>
 
